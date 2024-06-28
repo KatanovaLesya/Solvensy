@@ -1,0 +1,109 @@
+body {
+    font-family: "Noto Serif", serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    font-weight: 550;
+}
+
+header .logo img {
+    height: 60px;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+.nav-link
+{
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: end;
+}
+nav ul {
+    
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.icon
+{
+    width: 30px;
+    padding: 0;
+    border: 0;
+    display: flex;
+}
+
+.icon-usa
+{
+    width: 48px;
+    padding-left: 45px;
+    border: 0;
+    display: flex;
+}
+
+.icon-ukr
+ {
+    width: 30px;
+    padding-left: 45px;
+    border: 0;
+    display: flex;
+}
+
+.icon-finance
+{
+    width: 48px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    border: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-media {
+    margin-top: 10px;
+}
