@@ -1,8 +1,14 @@
+:root
+{
+    box-sizing: border-box;
+}
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
 body {
     font-family: "Noto Serif", serif;
     font-size: 16px;
-    margin: 0;
-    padding: 0;
     background-color: #ffffff;
     color: #000000;
 }
@@ -10,10 +16,6 @@ body {
 header {
     background-color: #000000;
     color: #ffffff;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
     display: flex;
     justify-content: space-between;
     align-items:end;
@@ -22,16 +24,12 @@ header {
 
 header .logo img {
     height: 60px;
-    margin-left: 40px;
-    margin-right: 20px;
-    margin-bottom: 0px;
 }
 .nav-link
 {
     font-size: 15px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    text-align: end;
 }
 nav ul {
     
@@ -45,34 +43,24 @@ nav ul {
 .icon
 {
     width: 30px;
-    padding: 0;
-    border: 0;
     display: flex;
 }
 
 .icon-usa
 {
     width: 48px;
-    padding-left: 45px;
-    border: 0;
     display: flex;
 }
 
 .icon-ukr
  {
     width: 30px;
-    padding-left: 45px;
-    border: 0;
     display: flex;
 }
 
 .icon-finance
 {
     width: 48px;
-    padding-top: 0px;
-    padding-left: 20px;
-    padding-bottom: 0px;
-    border: 0;
     display: flex;
 }
 
