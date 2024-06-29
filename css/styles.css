@@ -24,6 +24,8 @@ header {
 
 header .logo img {
     height: 60px;
+    display: block;
+    max-width: 100%;
 }
 .nav-link
 {
@@ -43,25 +45,29 @@ nav ul {
 .icon
 {
     width: 30px;
-    display: flex;
+    display: block;
+    max-width: 100%;
 }
 
 .icon-usa
 {
     width: 48px;
-    display: flex;
+    display: block;
+    max-width: 100%;
 }
 
 .icon-ukr
  {
     width: 30px;
-    display: flex;
+    display: block;
+    max-width: 100%;
 }
 
 .icon-finance
 {
     width: 48px;
-    display: flex;
+    display: block;
+    max-width: 100%;
 }
 
 nav ul li {
